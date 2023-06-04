@@ -1,0 +1,518 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685874541945459, "dur":2339, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874541947807, "dur":106, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685874541947962, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685874541947985, "dur":226, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685874541948254, "dur":1235, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874541949489, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543569908, "dur":131, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570039, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570060, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570065, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570073, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570075, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570081, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570083, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570088, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570102, "dur":24, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543570142, "dur":2589, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685874541949140, "dur":380, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874541949520, "dur":8048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874541957569, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685874541957700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874541976610, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685874541980159, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685874541980268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874541980356, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685874541983236, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685874541983325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874541983358, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685874541985530, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685874541985632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874541985646, "dur":8189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685874541993956, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874541994072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874541994101, "dur":297850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542292089, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542292585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542292596, "dur":43940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542336556, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542336581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542336591, "dur":31342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542367957, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542367979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542367992, "dur":20422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542388434, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542388455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542388466, "dur":19132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542407623, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542407647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542407657, "dur":18702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542426388, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542426413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542426425, "dur":79697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542506147, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542506206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542506214, "dur":23451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542529694, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542529776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542529788, "dur":24329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542554139, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542554272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542554307, "dur":18673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542572999, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542573020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542573029, "dur":19086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542592133, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542592153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542592161, "dur":35969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542628153, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542628181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542628192, "dur":18193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542646411, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542646435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542646446, "dur":21288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542667758, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542667782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542667792, "dur":114843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542782663, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542783111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542783139, "dur":20644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542803803, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542803826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542803837, "dur":29111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542832971, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542833330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542833341, "dur":30841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542864202, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542864416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542864426, "dur":21598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542886048, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542886474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542886487, "dur":20432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542906939, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542907135, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542907152, "dur":19072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542926248, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542926471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542926482, "dur":18433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542944941, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542945320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542945333, "dur":18246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542963600, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542963625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542963636, "dur":19049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542982717, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874542982740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874542982750, "dur":56380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543039153, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543039173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874543039183, "dur":31681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543070895, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543070920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874543070932, "dur":19268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543090226, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543090252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874543090263, "dur":59443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543149731, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543149767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874543149777, "dur":19618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543169417, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543169442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874543169452, "dur":124388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543293864, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543293888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874543293899, "dur":44478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543338401, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543338427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685874543338466, "dur":231396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685874543569880, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1685874543569881, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874541949095, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874541949516, "dur":8033, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874541957565, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685874541957569, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874541957612, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685874541957622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874541975178, "dur":4998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1685874541980178, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685874541980307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874541980374, "dur":9064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685874541989542, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685874541989635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874541989646, "dur":9638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685874541999416, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874541999550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874541999561, "dur":1023385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543023083, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543023119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543023130, "dur":23965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543047119, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543047143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543047154, "dur":18851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543066028, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543066056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543066102, "dur":25619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543091748, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543091771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543091781, "dur":255329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543347132, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543347426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543347438, "dur":21736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685874543369210, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1685874543369469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543370183, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1685874543372480, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1685874543372500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543372524, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1685874543375307, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543375329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543375338, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543377971, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685874543378011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543378020, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685874543379902, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543379923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543379932, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543383931, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685874543383955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543383965, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685874543386413, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543386434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543386444, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543389038, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543389104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543389113, "dur":4687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543393821, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1685874543394036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543394046, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1685874543396543, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543396563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543396573, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543399410, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543399437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543399446, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543402887, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543402906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543402913, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685874543405396, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1685874543405415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543405423, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1685874543407415, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1685874543407587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685874543407595, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1685874543410577, "dur":159329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541949182, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541949527, "dur":8026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541957565, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685874541957735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541976590, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685874541980159, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685874541980270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541980361, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685874541983212, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685874541983324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541983366, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685874541985610, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685874541985702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541986247, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685874541988434, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685874541988524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541988537, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685874541990357, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685874541990454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541990465, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685874541992742, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874541992880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874541993112, "dur":38445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542031717, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685874542031759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542031769, "dur":34051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685874542065839, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1685874542065988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542066564, "dur":5084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1685874542071766, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542071796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542071822, "dur":17591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542089439, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542089473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542089484, "dur":19255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542108916, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542109105, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542109161, "dur":20679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542129863, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542129895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542129906, "dur":20529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542150460, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542150487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542150498, "dur":19395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542169917, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542169950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542169962, "dur":23928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542193911, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542193932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542193965, "dur":17713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542211702, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542211726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542211737, "dur":18377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542230138, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542230164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542230175, "dur":17704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542247903, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542247931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542247942, "dur":27683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542275649, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542275671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542275682, "dur":20763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542296470, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542296498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542296509, "dur":19301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542315838, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542315860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542315870, "dur":19652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542335543, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542335566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542335577, "dur":19623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542355223, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542355249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542355471, "dur":20632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542376125, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542376149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542376160, "dur":30469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542406652, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542406676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542406688, "dur":24512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542431224, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542431247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542431258, "dur":74853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542506134, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542506193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542506205, "dur":24454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542530710, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542530738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542530749, "dur":32692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542563468, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542563504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542563515, "dur":28689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542592232, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542592276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542592285, "dur":21482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542613785, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542613806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542613816, "dur":17931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542631768, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542631790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542631801, "dur":20244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542652066, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542652087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542652101, "dur":20042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542672162, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542672183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542672193, "dur":17780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542689992, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542690012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542690021, "dur":26338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542716388, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542716412, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542716432, "dur":18429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542734883, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542734904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542734915, "dur":29500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542764433, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542764456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542764466, "dur":19019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542783505, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542784040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542784051, "dur":56279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542840353, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542840972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542840983, "dur":48149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542889160, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542889415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542889427, "dur":18762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542908210, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542908419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542908430, "dur":16804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542925255, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542925471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542925482, "dur":20695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542946200, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542946221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542946231, "dur":30430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542976690, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874542976716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874542976727, "dur":33439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543010193, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543010222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543010234, "dur":109814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543120072, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543120100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543120111, "dur":204394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543324528, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543324549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543324560, "dur":18250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543342838, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543342874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543342885, "dur":44272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685874543387178, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685874543387199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543387208, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685874543389030, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685874543389082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543389092, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685874543392057, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685874543392086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543392095, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685874543395190, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1685874543395382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543395391, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1685874543397515, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685874543397561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543397633, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685874543399591, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1685874543399609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543399617, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1685874543402517, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1685874543402535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543402543, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1685874543404855, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685874543404875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543404883, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685874543407152, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1685874543407173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685874543407181, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1685874543410541, "dur":159366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541949233, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541949534, "dur":8033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541957568, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685874541957692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541976789, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685874541980423, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685874541980523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541981039, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685874541983859, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685874541984022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541984051, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685874541986279, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685874541986399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541986448, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685874541988942, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685874541989051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541989089, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685874541991212, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685874541991308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874541991319, "dur":22960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685874542014428, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685874542014580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542014591, "dur":56616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685874542071323, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542071358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542071614, "dur":22787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542094424, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542094456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542094466, "dur":20229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542114716, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542114768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542114780, "dur":20112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542134917, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542134941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542135056, "dur":18957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542154035, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542154065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542154076, "dur":25472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542179570, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542179598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542179611, "dur":17632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542197267, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542197298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542197309, "dur":18871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542216201, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542216232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542216244, "dur":20971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542237235, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542237258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542237297, "dur":24462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542261785, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542261810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542261821, "dur":22204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542284051, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542284076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542284087, "dur":133089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542417204, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542417293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542417307, "dur":23566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542440897, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542440919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542440931, "dur":65201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542506151, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542506202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542506213, "dur":39175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542545420, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542545447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542545457, "dur":27513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542572991, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542573016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542573027, "dur":19005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542592063, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542592086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542592097, "dur":20630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542612747, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542612777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542612787, "dur":20843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542633651, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542633674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542633685, "dur":18703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542652406, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542652428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542652438, "dur":19649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542672108, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542672128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542672409, "dur":17557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542689987, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542690009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542690020, "dur":30871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542720911, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542720936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542720946, "dur":17528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542738499, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542738522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542738534, "dur":24380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542762935, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542762962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542762972, "dur":22006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542784999, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542785794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542785806, "dur":77896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542863723, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542863964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542863976, "dur":18668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542882667, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542882945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542882957, "dur":22058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542905036, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542905346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542905383, "dur":25309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542930717, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542931026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542931039, "dur":21692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542952752, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874542952778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874542952788, "dur":328664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874543281475, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874543281497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874543281508, "dur":30088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874543311620, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874543311642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874543311653, "dur":90355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685874543402033, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685874543402054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874543402064, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685874543404676, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1685874543404696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874543404706, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1685874543406881, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685874543406926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685874543406950, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/ /GitHub/PlatformerGame_3D-2D/build 4/platformer3D_2D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685874543408901, "dur":160993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685874543574745, "dur":1957, "ph":"X", "name": "ProfilerWriteOutput" }
+,

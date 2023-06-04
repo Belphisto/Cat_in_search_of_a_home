@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BonusController">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAgAAAAAAQAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BonusController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BonusModel">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BonusModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmallBonus">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BonusModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiddleBonus">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BonusModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigBonus">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BonusModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYBAAAAACAQAAQAAAUAAAAAAAAAAAABAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JsonDataLoader">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="1.191" />
+        <Point X="1.5" Y="1.566" />
+        <Point X="6.75" Y="1.566" />
+        <Point X="6.75" Y="1" />
+        <Point X="15.625" Y="1" />
+        <Point X="15.625" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\JsonDataLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadMainMenu">
+    <Position X="16.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LoadMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuController">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQMAABAACAAAAEAIAAAAAAAAIgAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MainMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseMenuController">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAACAAAAAAAAAAAIAEAAAAgAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\PauseMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RecordsMenucontroller">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\RecordsMenucontroller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveGameController">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAACAAAAAAIAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveGameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveGameData">
+    <Position X="16.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAIAAAABAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveGameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultData">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveGameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveGameView">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAACAIAIIAAAAAAIAAAAgAAAAoAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveGameView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreController">
+    <Position X="1.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAgAAAAAAABAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\ScoreController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="scoreModel" />
+      <Field Name="scoreView" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScoreModel">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAIAAAgAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScoreModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreView">
+    <Position X="6.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScoreView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeController">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TimeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeModel">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TimeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeView">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\TimeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreasureChestController">
+    <Position X="15.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAAAEAAAAAAAAAAAAAQAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\TreasureChestController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreasureChest">
+    <Position X="18.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TreasureChestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmallTreasureChest">
+    <Position X="22.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TreasureChestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiddleTreasureChest">
+    <Position X="19.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TreasureChestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BigTreasureChest">
+    <Position X="24" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TreasureChestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

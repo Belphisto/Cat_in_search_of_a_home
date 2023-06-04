@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Model.BigBonus" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\BigBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.BigTreasureChest" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\BigTreasureChest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.BonusModel" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAIgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\BonusModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.MiddleBonus" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\MiddleBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.MiddleTreasureChest" Collapsed="true">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\MiddleTreasureChest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SmallBonus" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\SmallBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SmallTreasureChest" Collapsed="true">
+    <Position X="2" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\SmallTreasureChest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.TreasureChest" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\TreasureChestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.LevelModel">
+    <Position X="6.25" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\Level\LevelModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.VolumeValueModel">
+    <Position X="5.5" Y="9.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAACAAgACIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Music\VolumeValueModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.PlayerModel">
+    <Position X="6.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAAAAAAAAAAAAEAAAAAAAUAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ResultData">
+    <Position X="24.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAQAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Saving\ResultData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SaveGameData">
+    <Position X="21.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAIAAAABAAEAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Saving\SaveGameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.ScoreModel">
+    <Position X="15.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAIAAAgAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Score\ScoreModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.TimeModel">
+    <Position X="13.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Time\TimeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller.BonusController">
+    <Position X="2.75" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAQAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Bonus\BonusController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller.MusicManager">
+    <Position X="2.75" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAABAABAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Music\MusicManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller.PlayerController">
+    <Position X="6.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAACgBACAAAgAAAAAAAAAAAAAMACAACCAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+      <Field Name="_view" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Controller.ScoreController">
+    <Position X="15.75" Y="5.5" Width="4" />
+    <AssociationLine Name="scoreModel" Type="Model.ScoreModel" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.75" Y="6.25" />
+        <Point X="20.125" Y="6.25" />
+        <Point X="20.125" Y="1.47" />
+        <Point X="17.75" Y="1.47" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="scoreView" Type="View.ScoreView">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.131" Y="0.249" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAgAAAAAAABAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Score\ScoreController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="scoreModel" />
+      <Field Name="scoreView" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Manager.GameManager">
+    <Position X="8.75" Y="4.5" Width="4" />
+    <AssociationLine Name="timeController" Type="TimeController" FixedToPoint="true">
+      <Path>
+        <Point X="9.625" Y="7.531" />
+        <Point X="9.625" Y="8.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="scoreController" Type="Controller.ScoreController" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="5.75" />
+        <Point X="15.75" Y="5.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.108" Y="0.068" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="scoreModel" Type="Model.ScoreModel" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="4.812" />
+        <Point X="16.188" Y="4.812" />
+        <Point X="16.188" Y="2.44" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="timeModel" Type="Model.TimeModel" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="6.237" />
+        <Point X="14.75" Y="6.237" />
+        <Point X="14.75" Y="7.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.089" Y="0.328" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAYBAAAACCAQAIAAAAUAAAAAAAAAAAABAABAAAACAQA=</HashCode>
+      <FileName>Assets\Scripts\Level\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="timeController" />
+      <Field Name="scoreController" />
+      <Field Name="scoreModel" />
+      <Field Name="timeModel" />
+      <Field Name="levelModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Manager.LoadMainMenu">
+    <Position X="16.25" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menus\LoadMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manager.MainMenuController">
+    <Position X="23.25" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAMAABAACAAAAEAIIAAAAAAQKgAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menus\MainMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manager.PauseMenuController">
+    <Position X="19.25" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAACAAAAAAAAAAAIAEAAAAgAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menus\PauseMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manager.RecordsMenucontroller">
+    <Position X="16.25" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menus\RecordsMenucontroller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manager.JsonDataLoader">
+    <Position X="19.25" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Saving\JsonDataLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.PlayerView">
+    <Position X="10.75" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAgAAAIAAAAAAEAAAAAEAYAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.SaveGameView">
+    <Position X="20.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAACAIAIIAAAAAAIAAAAgAAAAoAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Saving\SaveGameView.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="saveGameController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="View.ScoreView">
+    <Position X="16.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Score\ScoreView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.TimeView">
+    <Position X="12" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Time\TimeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveGameController">
+    <Position X="20.75" Y="0.75" Width="4.5" />
+    <AssociationLine Name="resultDataList" Type="Model.ResultData">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.349" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAACAAAAAAIAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Saving\SaveGameController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="resultDataList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TimeController">
+    <Position X="9" Y="8.75" Width="1.5" />
+    <AssociationLine Name="timeModel" Type="Model.TimeModel">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.498" Y="0.037" Height="0.182" Width="0.91" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="timeView" Type="View.TimeView" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.5" Y="9.5" />
+        <Point X="10.875" Y="9.5" />
+        <Point X="10.875" Y="10.062" />
+        <Point X="12" Y="10.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.571" Y="0.207" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Time\TimeController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="timeModel" />
+      <Field Name="timeView" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

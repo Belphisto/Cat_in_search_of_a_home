@@ -1,0 +1,257 @@
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using UnityEngine;
+
+public class PlayerMovement : MonoBehaviour
+{
+    private static readonly int _jumping = Animator.StringToHash("Jumping");
+    
+    public float speed = 30.0f;
+    public float collisionForce = 5f;
+
+    public float jumpForce = 5.0f;
+    private bool isFacingRight = true;
+
+    public float jumpRiseSpeed = 5.0f;  // Скорость подъема во время прыжка
+    public float jumpFallSpeed = 3.0f;  // Скорость приземления после прыжка
+
+    public float speedDeletel = 1.0f;
+
+    // Параметры для плавности вращения
+    public float rotationSpeed = 5f;
+    public float rotationThreshold = 0.01f;
+    public Transform groundCheck;
+    //public LayerMask groundLayer;
+
+    private readonly List<Collider> _contacts = new List<Collider>();
+    private readonly List<Collider> _groundContacts = new List<Collider>();
+
+
+    private Rigidbody _rigidbody;
+    
+    private Animator _animator;
+
+    private SpriteRenderer _renderer;
+    private bool IsGrounded => _groundContacts.Count > 0;
+
+    // сохраняем угол поворота
+    private float currentRotationAngle = 0f;
+
+
+
+    // Start is called before the first frame update
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+        _rigidbody = GetComponent<Rigidbody>();
+        _renderer = GetComponent<SpriteRenderer>();
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        var horizontalInput = Input.GetAxis("Horizontal");
+        var up = Input.GetKeyDown(KeyCode.UpArrow);
+        var down = Input.GetKeyDown(KeyCode.DownArrow);
+        var jump = Input.GetKeyDown(KeyCode.Space);
+
+        if (horizontalInput != 0f)
+        {
+            _animator.SetFloat("moveX", Mathf.Abs(Input.GetAxis("Horizontal")));
+           
+            var movement = transform.right * speed * Time.deltaTime;
+            _renderer.flipX = false;
+
+            if (horizontalInput < 0f)
+            {
+                movement *= -1.0f;
+                _renderer.flipX = true;
+            }
+            
+            _rigidbody.AddForce(movement, ForceMode.Impulse);
+
+            //transform.position += movement;
+        }
+        // поворот персонажа по кнопке "вверх"
+        /*if (up)
+        {
+            currentRotationAngle += 90f;
+            transform.Rotate(0f, 90f, 0f);
+        }
+
+        // поворот персонажа по кнопке "вниз"
+        if (down)
+        {
+            currentRotationAngle -= 90f;
+            transform.Rotate(0f, -90f, 0f);
+        }
+        // пересчитываем направление передвижения персонажа
+        //var movementDirection = Quaternion.Euler(0f, currentRotationAngle, 0f) * Vector3.right;*/
+
+        // Плавное вращение персонажа по кнопке "вверх"
+        if (up)
+        {
+            Quaternion targetRotation = Quaternion.Euler(0f, currentRotationAngle + 90f, 0f);
+            StartCoroutine(SmoothRotate(targetRotation));
+            currentRotationAngle += 90f;
+        }
+
+        // Плавное вращение персонажа по кнопке "вниз"
+        if (down)
+        {
+            Quaternion targetRotation = Quaternion.Euler(0f, currentRotationAngle - 90f, 0f);
+            StartCoroutine(SmoothRotate(targetRotation));
+            currentRotationAngle -= 90f;
+        }
+
+        // Корутина для плавного вращения
+        IEnumerator SmoothRotate(Quaternion targetRotation)
+        {
+            float rotationTime = 0.5f; // Время, за которое должно произойти вращение (в секундах)
+            Quaternion startRotation = transform.rotation;
+            float elapsedTime = 0f;
+
+            while (elapsedTime < rotationTime)
+            {
+                transform.rotation = Quaternion.Lerp(startRotation, targetRotation, elapsedTime / rotationTime);
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+
+            transform.rotation = targetRotation;
+        }
+
+
+
+        if (jump && IsGrounded)
+        {
+            Debug.Log("Jumping");
+            
+            _rigidbody.AddForce(new Vector3(0f, jumpForce * jumpRiseSpeed, 0f), ForceMode.Impulse);
+            if (horizontalInput != 0f)
+            {
+                _animator.SetFloat("moveX", Mathf.Abs(Input.GetAxis("Horizontal")));
+            
+                var movement = transform.right * (speed/speedDeletel)* Time.deltaTime;
+                _renderer.flipX = false;
+
+                if (horizontalInput < 0f)
+                {
+                    movement *= -1.0f;
+                    _renderer.flipX = true;
+                    
+                }
+                
+                _rigidbody.AddForce(movement, ForceMode.Impulse);
+
+                //transform.position += movement;
+            }
+            SetAnimatorState();
+        }
+        if (!IsGrounded)
+        {
+        // При падении применяем силу с учетом параметра jumpFallSpeed
+            _rigidbody.AddForce(new Vector3(0f, -jumpForce * jumpFallSpeed, 0f), ForceMode.Acceleration);
+        }
+
+        
+        
+         SetAnimatorState();
+    }
+
+    private void SetAnimatorState()
+    {
+        _animator.SetBool(_jumping, !IsGrounded);
+        Debug.Log("Jumping SetAnimatorState()");
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        var hitbox = collision.collider;
+        
+        _contacts.Remove(hitbox);
+        _groundContacts.Remove(hitbox);
+
+        
+        SetAnimatorState();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        var hitbox = collision.collider;
+        
+        _contacts.Add(hitbox);
+        
+        var contactNormal = collision.impulse.normalized;
+        var angle = Vector3.Angle(contactNormal, Vector3.up);
+        var isGroundContact = angle < 5f;
+       
+        if (isGroundContact)
+        {
+            _groundContacts.Add(hitbox);
+
+        }
+        SetAnimatorState();
+    }
+
+    
+}
+
+
+
+платформы 
+
+// Контроллер (Controller)
+
+using UnityEngine;
+
+public class TreasureChestController : MonoBehaviour
+{
+    private ScoreController scoreController;
+    private LevelModel levelModel; // Добавьте модель уровня
+
+
+    private void Start()
+    {
+        
+        Debug.Log("bonusController create");
+        // компонент типа bonus в зависимости от тега объекта
+        if (gameObject.CompareTag("SmallTreasureChest"))
+        {
+            Debug.Log("SmallTreasureChest Created");
+            SmallTreasureChest smallTreasureChest = gameObject.AddComponent<SmallTreasureChest>();
+        }
+
+        /*else if (gameObject.CompareTag("MiddleCrystal"))
+        {
+            MiddleBonus middleBonus = gameObject.AddComponent<MiddleBonus>();
+        }
+        else if (gameObject.CompareTag("BigCrystal"))
+        {
+            BigBonus bigBonus = gameObject.AddComponent<BigBonus>();
+        }*/
+    }
+    public void SetScoreController(ScoreController controller)
+    {
+        scoreController = controller;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            BonusModel bonus = GetComponent<BonusModel>();
+            Debug.Log("SmallTreasureChest");
+
+            if (bonus != null)
+            {
+                scoreController.AddScore(bonus.scoreValue);
+                Debug.Log("Collision OnTriggerEnter SmallTreasureChest");
+                Destroy(gameObject);
+                levelModel.IsLevelComplete = true;
+                
+            }
+        }
+    }
+}
